@@ -1,0 +1,11 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: server-one
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        #命名空间
+        #namespace: b7d26021-28b5-42d1-b36d-737a818a2146
